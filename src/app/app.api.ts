@@ -1,0 +1,1 @@
+export const GAME_LAB_API = 'https://swapi.co/api'

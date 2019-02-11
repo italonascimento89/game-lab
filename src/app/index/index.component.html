@@ -1,0 +1,13 @@
+
+<app-navbar></app-navbar>
+<div class="banner"></div>
+<div class="wrapper">
+  <app-section-title></app-section-title>
+<div class="container">
+  <div class="row content-cards-movies">
+    <div *ngFor="let movie of movies" class="col-lg-4 col-md-12">
+      <app-list-movies [movie]="movie"></app-list-movies>
+    </div>
+  </div>
+</div>
+

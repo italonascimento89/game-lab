@@ -1,0 +1,47 @@
+.section-description{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(/assets/imgs/films/vehicles/bg-vechicles.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.title{
+    color: #666;
+    font-size: 1.5em;
+}
+.subtitle{
+    color: white;
+    font-size: 1em;
+}
+.description-vehicles{
+    min-height: 244px;
+    background-color:#282727;
+    border-right: solid 1px white;
+    color: white;
+    font-size: 0.8em;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.list-group-item{
+    color: white;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+@media (min-width:0px) and (max-width:992px){
+    .details-moveis{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .title-section{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+.details-vehicles{
+    margin-top: 20px;
+}
+h6{
+    font-size: 1em;
+}

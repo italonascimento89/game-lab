@@ -1,0 +1,11 @@
+.card{
+    border: 0px;
+    margin-top: 20px;
+}
+.card-body{
+    background-color: #282727;
+    color: #ddd;
+}
+a:hover{
+    text-decoration: none;
+}

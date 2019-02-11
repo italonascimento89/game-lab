@@ -1,0 +1,17 @@
+.wrapper{
+    display: flex;
+    background-color: #1a1a1a;
+    min-height: 50px;
+}
+.container{
+    color: #ddd;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width:0px) and (max-width:992px){
+    .descrition-footer{
+        font-size: 0.7em;
+    }
+}

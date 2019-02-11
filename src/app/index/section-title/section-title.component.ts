@@ -1,0 +1,18 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-section-title',
+  templateUrl: './section-title.component.html',
+  styleUrls: ['./section-title.component.css']
+})
+export class SectionTitleComponent implements OnInit {
+
+  title = 'LISTA DE FILMES'
+  subtitle = 'CONFIRA'
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}

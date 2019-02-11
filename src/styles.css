@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+/*Fonts customizadas - Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Monda:400,700');
+*{
+    font-family: 'Monda', sans-serif;
+ }
+
+ html, body{
+     margin: 0px;
+     padding: 0px;
+     height: 100%;
+ }
+.wrapper-body{
+    min-height: 100%;
+    position: relative;
+}
